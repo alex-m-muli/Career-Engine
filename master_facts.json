@@ -1,0 +1,147 @@
+{
+  "profile": {
+    "name": "Jane Doe",
+    "title": "Lead Full-Stack & AI Systems Engineer",
+    "secondaryTitle": "AI Infrastructure & Distributed Systems Architect",
+    "email": "jane.doe@example.com",
+    "phone": "+1 555 019 2831",
+    "location": "San Francisco, CA",
+    "linkedin": "https://linkedin.com/in/jane-doe",
+    "github": "https://github.com/jane-doe",
+    "education": {
+      "degree": "B.Sc. in Computer Science",
+      "institution": "University of Technology",
+      "graduation": "March 2023"
+    },
+    "certifications": [
+      "AWS Certified Solutions Architect - Associate",
+      "Certified Kubernetes Administrator (CKA)",
+      "AWS Certified Machine Learning - Specialty",
+      "Microsoft Certified: Azure AI Engineer Associate",
+      "TensorFlow Developer Certificate"
+    ]
+  },
+  "career_timeline": [
+    {
+      "role": "Software Developer (Self-Employed / Independent Projects)",
+      "period": "Jan 2020 - Apr 2022",
+      "location": "San Francisco, CA",
+      "description": "Built full-stack web architectures and automated data processing scripts for independent clients."
+    },
+    {
+      "role": "Software Engineer (Contract)",
+      "company": "EdTech Solutions Inc.",
+      "period": "May 2022 - Aug 2022",
+      "location": "San Francisco, CA",
+      "description": "Built backend features and streaming components for an adaptive e-learning platform."
+    }
+  ],
+  "skills_taxonomy": {
+    "direct_core": [
+      "TypeScript",
+      "Node.js",
+      "Next.js",
+      "React",
+      "Python",
+      "FastAPI",
+      "Docker",
+      "Kubernetes",
+      "PostgreSQL",
+      "MongoDB",
+      "AWS",
+      "Azure",
+      "PyTorch",
+      "LangChain",
+      "LlamaIndex",
+      "MCP Servers",
+      "LangGraph",
+      "Vector Databases"
+    ],
+    "transferable_equivalencies": {
+      "AWS": ["GCP", "Azure", "Cloud Infrastructure"],
+      "React": ["Vue.js", "Svelte", "SolidJS"],
+      "PostgreSQL": ["MySQL", "MariaDB", "CockroachDB", "SQL Server"],
+      "REST APIs": ["gRPC", "GraphQL", "WebSockets"],
+      "Express.js": ["FastAPI", "NestJS", "Django"],
+      "LangChain": ["LlamaIndex", "Semantic Kernel", "Custom Agent Frameworks"]
+    },
+    "adjacent_concepts": {
+      "Containerization": ["Docker", "Kubernetes", "Podman"],
+      "CI/CD": ["GitHub Actions", "GitLab CI", "GitOps"],
+      "Caching": ["Redis", "Memcached"],
+      "Agentic AI & LLMOps": [
+        "MCP Servers",
+        "LangGraph",
+        "Vector Databases",
+        "ONNX",
+        "vLLM",
+        "Ollama"
+      ]
+    }
+  },
+  "experience_bullets": [
+    {
+      "id": "b1",
+      "category": "AI Infrastructure & Agentic Systems",
+      "text": "Designed agentic RAG pipelines and Model Context Protocol (MCP) servers for secure, low-latency tool interaction with multimodal LLMs.",
+      "keywords": [
+        "MCP Servers",
+        "LangChain",
+        "LlamaIndex",
+        "LLMOps",
+        "Python",
+        "Agentic AI"
+      ]
+    },
+    {
+      "id": "b2",
+      "category": "Full Stack & Web Architecture",
+      "text": "Developed high-performance Next.js 16 and TypeScript web applications using React Server Components (RSC) and Tailwind CSS v4. Improved Core Web Vitals scores and ensured WCAG 2.1 compliance.",
+      "keywords": [
+        "TypeScript",
+        "Next.js",
+        "React",
+        "Tailwind CSS",
+        "Core Web Vitals"
+      ]
+    },
+    {
+      "id": "b3",
+      "category": "Distributed Systems & Backend",
+      "text": "Built FastAPI and Node.js microservices backed by PostgreSQL and Redis streams to process high-throughput event streaming and transactional workloads.",
+      "keywords": [
+        "Python",
+        "FastAPI",
+        "Node.js",
+        "PostgreSQL",
+        "Redis",
+        "Microservices"
+      ]
+    },
+    {
+      "id": "b4",
+      "category": "Cloud & DevOps",
+      "text": "Managed containerized workloads using Docker, Kubernetes (CKA), and Terraform across AWS and Azure cloud environments. Automated GitHub Actions CI/CD pipelines for continuous deployment.",
+      "keywords": [
+        "Docker",
+        "Kubernetes",
+        "AWS",
+        "Azure",
+        "Terraform",
+        "CI/CD"
+      ]
+    },
+    {
+      "id": "b5",
+      "category": "Applied Machine Learning & Optimization",
+      "text": "Reduced local LLM inference latency to under 45ms using INT8 quantization and ONNX runtimes. Configured pgvector HNSW indexing for high-dimensional semantic search.",
+      "keywords": [
+        "PyTorch",
+        "Vector Databases",
+        "ONNX",
+        "vLLM",
+        "Machine Learning"
+      ]
+    }
+  ]
+}

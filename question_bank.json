@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "last_updated": "2026-10-26",
+    "notes": "This file acts as the memory bank for autofill.py. You can manually edit answers here, or let the system append new ones as it learns."
+  },
+  "questions": [
+    {
+      "id": "q_salary",
+      "keywords": ["salary", "compensation", "expected pay", "day rate", "monthly rate"],
+      "question": "What are your salary expectations?",
+      "answer": "My salary expectations are flexible and depend on the specific role, benefits, and location. For a senior full-stack or AI engineering role, I typically look for a competitive market rate. I am open to discussing a package that aligns with the value I bring.",
+      "type": "text"
+    },
+    {
+      "id": "q_notice",
+      "keywords": ["notice period", "start date", "when can you start", "availability"],
+      "question": "What is your notice period?",
+      "answer": "I am currently available and can start within 2 to 4 weeks of accepting an offer, allowing me time to transition smoothly from my current engagements.",
+      "type": "text"
+    },
+    {
+      "id": "q_visa_uae",
+      "keywords": ["visa", "sponsorship", "authorized to work", "right to work", "emirates id"],
+      "question": "Do you require visa sponsorship?",
+      "answer": "I am currently based in San Francisco, CA, and I do require visa sponsorship to work in the target country. I am fully prepared to relocate immediately upon securing a visa.",
+      "type": "text"
+    },
+    {
+      "id": "q_relocate",
+      "keywords": ["relocate", "willing to move", "onsite", "hybrid", "remote"],
+      "question": "Are you willing to relocate?",
+      "answer": "Yes, I am fully open to relocating for the right opportunity. I am also highly experienced in working remotely across different time zones and can seamlessly integrate into a hybrid or fully remote team.",
+      "type": "text"
+    },
+    {
+      "id": "q_experience",
+      "keywords": ["years of experience", "how long", "total experience", "software experience"],
+      "question": "How many years of professional experience do you have?",
+      "answer": "I have over 5 years of professional experience building full-stack software, distributed systems, and AI infrastructure.",
+      "type": "text"
+    },
+    {
+      "id": "q_ai_experience",
+      "keywords": ["ai", "llm", "rag", "machine learning", "langchain", "generative"],
+      "question": "Describe your experience with AI and LLMs.",
+      "answer": "I have extensive hands-on experience integrating LLMs into production applications. I have designed and deployed retrieval-augmented generation (RAG) pipelines using LangChain, LlamaIndex, and vector databases. I have also optimized local LLM inference and built custom agentic workflows using tools like LangGraph and MCP servers.",
+      "type": "textarea"
+    },
+    {
+      "id": "q_company",
+      "keywords": ["why do you want to work here", "why this company", "interest in our company"],
+      "question": "Why do you want to work for our company?",
+      "answer": "I am drawn to your company because of its focus on building impactful, scalable technology. As a senior engineer, I am looking for a role where I can apply my experience in distributed systems and AI integration to solve complex, real-world problems alongside a high-performing team.",
+      "type": "textarea"
+    },
+    {
+      "id": "q_remote",
+      "keywords": ["remote", "work from home", "timezone", "relocation"],
+      "question": "Are you comfortable working remotely?",
+      "answer": "Yes, I have been working in remote and hybrid setups for years. I am highly disciplined and have established routines that make me very effective in a remote environment. I am also comfortable overlapping with different time zones as needed.",
+      "type": "text"
+    },
+    {
+      "id": "q_languages",
+      "keywords": ["programming languages", "what languages", "tech stack"],
+      "question": "Which programming languages are you most proficient in?",
+      "answer": "I am highly proficient in Python, TypeScript/JavaScript, and C#. I also have deep experience with SQL, Go, and Rust for specific performance-critical tasks.",
+      "type": "text"
+    },
+    {
+      "id": "q_bachelors",
+      "keywords": ["degree", "education", "bachelor", "computer science"],
+      "question": "Do you have a Bachelor's degree in Computer Science?",
+      "answer": "Yes, I hold a B.Sc. in Computer Science from University of Technology, graduating in March 2023.",
+      "type": "text"
+    }
+  ]
+}

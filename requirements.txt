@@ -1,0 +1,12 @@
+# Core pipeline
+python-jobspy==1.3.0
+google-genai>=2.30.0,<3.0.0
+pypdf>=4.0.0
+python-dotenv>=1.0.0
+pydantic>=2.6.0,<3.0.0
+
+# Browser automation
+playwright==1.64.0
+
+# Required by scraper.py (pandas is a jobspy dependency but pin explicitly)
+pandas>=2.0.0

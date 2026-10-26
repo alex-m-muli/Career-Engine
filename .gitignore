@@ -1,0 +1,16 @@
+# Environment variables (API Keys)
+.env
+
+# Local database and logs
+*.db
+*.log
+*.sqlite
+
+# Generated Resumes and PDFs
+*.pdf
+outputs/
+
+# Python cache
+__pycache__/
+*.pyc
+.venv/

@@ -1,0 +1,66 @@
+{
+  "umbrella_role": {
+    "id": "role_consulting",
+    "company": "Independent Software Consultant",
+    "role": "Senior Full-Stack & AI Systems Engineer",
+    "location": "Nairobi, Kenya",
+    "period": "Sep 2022 - Feb 2024",
+    "pass_group": "bridge"
+  },
+  "project_pool": [
+    {
+      "id": "proj_fintech",
+      "title": "High-Throughput Payment Processing",
+      "description": "Built a payment gateway using Python FastAPI and PostgreSQL to handle 50,000+ daily transactions. Introduced Redis for idempotency keys to prevent double-charging during network retries, and tuned connection pooling to handle peak loads without dropping requests.",
+      "keywords": ["Python", "FastAPI", "PostgreSQL", "Redis", "Fintech", "Microservices"]
+    },
+    {
+      "id": "proj_ai_rag",
+      "title": "Enterprise Document RAG Pipeline",
+      "description": "Implemented a retrieval-augmented generation pipeline using LangChain and OpenAI APIs. Chunked and embedded 10,000+ internal PDFs into a vector database, then added a cross-encoder re-ranking step to improve retrieval accuracy on complex technical queries.",
+      "keywords": ["AI", "RAG", "LangChain", "OpenAI", "Vector Databases", "Python"]
+    },
+    {
+      "id": "proj_ecommerce",
+      "title": "E-Commerce Platform Rebuild",
+      "description": "Migrated a legacy PHP storefront to a Next.js and TypeScript frontend backed by a Node.js API. Wrote a custom data migration script to move 5 years of order history into a normalized PostgreSQL schema, and added server-side rendering to improve Core Web Vitals.",
+      "keywords": ["Next.js", "TypeScript", "Node.js", "PostgreSQL", "E-Commerce", "SSR"]
+    },
+    {
+      "id": "proj_dotnet",
+      "title": "Enterprise Inventory Management System",
+      "description": "Developed core backend services in C# .NET 8 for a multi-warehouse inventory system. Implemented Dapper for high-performance data access against a SQL Server database, and built a background worker service using Quartz.NET to process nightly reconciliation jobs.",
+      "keywords": ["C#", ".NET", "SQL Server", "Dapper", "Backend", "Enterprise"]
+    },
+    {
+      "id": "proj_iot",
+      "title": "IoT Telemetry Dashboard",
+      "description": "Developed a real-time telemetry dashboard for industrial sensors using React and a Python WebSocket backend. Ingested MQTT streams into TimescaleDB and added downsampling queries to render 30-day historical charts without freezing the browser.",
+      "keywords": ["React", "Python", "WebSockets", "TimescaleDB", "IoT", "MQTT"]
+    },
+    {
+      "id": "proj_devops",
+      "title": "Cloud Infrastructure Migration",
+      "description": "Migrated a containerized workload from a single VPS to AWS ECS. Wrote Terraform scripts to provision the VPC, RDS instance, and ECS cluster, and configured GitHub Actions to automate the build and deployment of the Docker image on every push to main.",
+      "keywords": ["AWS", "Terraform", "Docker", "CI/CD", "DevOps", "ECS"]
+    },
+    {
+      "id": "proj_ml_pytorch",
+      "title": "Custom Vision Model Optimization",
+      "description": "Trained a PyTorch object detection model to identify manufacturing defects on a client assembly line. Applied INT8 quantization and ONNX runtime export to reduce inference time to under 45ms per frame, allowing the model to run on existing edge hardware.",
+      "keywords": ["PyTorch", "Machine Learning", "ONNX", "Python", "Computer Vision"]
+    },
+    {
+      "id": "proj_azure_ai",
+      "title": "Azure AI Copilot Integration",
+      "description": "Integrated Azure AI Services and Copilot Studio into a client's CRM platform. Built a custom connector to query internal REST APIs securely, enabling sales teams to ask natural language questions about customer accounts and retrieve real-time metrics.",
+      "keywords": ["Azure", "Azure AI", "Copilot Studio", "REST APIs", "LLM"]
+    },
+    {
+      "id": "proj_data_pipeline",
+      "title": "Real-Time Analytics Pipeline",
+      "description": "Built a streaming analytics pipeline using Apache Kafka and Python to ingest user clickstream data. Loaded transformed events into a Snowflake data warehouse and configured Airflow DAGs to maintain hourly aggregations for the business intelligence team.",
+      "keywords": ["Kafka", "Python", "Snowflake", "Airflow", "Data Engineering"]
+    }
+  ]
+}
